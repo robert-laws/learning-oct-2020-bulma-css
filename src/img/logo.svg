@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="100" viewBox="0 0 200 100">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="200" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <path id="Union_1" data-name="Union 1" d="M-682.2-135v0h-35.225v0c-5.3-.318-9.579-16.983-9.579-37.5,0-20.71,4.358-37.5,9.733-37.5,3.262,0,6.148,6.18,7.914,15.668,2.812-3.435,6.2-5.44,9.852-5.44,3.52,0,6.8,1.865,9.549,5.078,1.838-8.626,4.7-14.169,7.909-14.169,5.546,0,10.042,16.534,10.042,36.932S-676.5-135-682.042-135C-682.094-135-682.145-135-682.2-135Z" transform="translate(-657 -123) rotate(180)" fill="#505050"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="4.5" cy="4.5" r="4.5" transform="translate(28 26)" fill="#f4cfb4"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="4.5" cy="4.5" r="4.5" transform="translate(48 26)" fill="#f4cfb4"/>
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M-709-185a12.014,12.014,0,0,1-12-12h24A12.014,12.014,0,0,1-709-185Z" transform="translate(752 247)" fill="#f4cfb4"/>
+    <text id="Ghost_Town" data-name="Ghost
+Town" transform="translate(82 46)" fill="#ff8408" font-size="32" font-family="Silom"><tspan x="0" y="0">Ghost</tspan><tspan fill="#000"><tspan x="0" y="30">Town</tspan></tspan></text>
+  </g>
+</svg>

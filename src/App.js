@@ -1,11 +1,13 @@
 import React from 'react';
+import { Text, Spacing, Navbar } from './examples';
 
 import './App.scss';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>App</h1>
+    <div>
+      <Navbar />
+      <Spacing>{/* <Text /> */}</Spacing>
     </div>
   );
 }
