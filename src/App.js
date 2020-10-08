@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Spacing, Navbar, Breadcrumbs } from './examples';
+import { Text, Spacing, Navbar, Breadcrumbs, GridColumns } from './examples';
 
 import './App.scss';
 
@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Breadcrumbs />
-      <Spacing>{/* <Text /> */}</Spacing>
+      <GridColumns />
     </div>
   );
 }
