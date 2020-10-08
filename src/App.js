@@ -1,5 +1,12 @@
 import React from 'react';
-import { Text, Spacing, Navbar, Breadcrumbs, GridColumns } from './examples';
+import {
+  Text,
+  Spacing,
+  Navbar,
+  Breadcrumbs,
+  GridColumns,
+  Tabs,
+} from './examples';
 
 import './App.scss';
 
@@ -9,6 +16,7 @@ function App() {
       <Navbar />
       <Breadcrumbs />
       <GridColumns />
+      <Tabs />
     </div>
   );
 }
