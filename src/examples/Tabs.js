@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { MessageBox } from './MessageBox';
 
 export const Tabs = () => {
   const [selectedTab, setSelectedTab] = useState('product-details');
@@ -83,10 +84,7 @@ export const Tabs = () => {
             </div>
           </div>
           <div className='column is-5-tablet'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Necessitatibus, in, laboriosam molestias eos, culpa harum quia
-            impedit doloribus ad sint obcaecati tenetur recusandae tempore
-            voluptate!
+            <MessageBox />
           </div>
         </div>
       </div>
