@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from './Button';
 
 export const MessageBox = () => {
   return (
@@ -13,6 +14,9 @@ export const MessageBox = () => {
           voluptate quibusdam accusamus eaque perferendis velit a facilis
           aperiam.
         </p>
+        <div className='has-text-centered pt-5 pb-2'>
+          <Button text='Learn More' />
+        </div>
       </div>
     </div>
   );

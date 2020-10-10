@@ -1,5 +1,6 @@
 import React from 'react';
 import coffee from '../img/coffee-2.png';
+import { Button } from './Button';
 
 export const GridColumns = () => {
   return (
@@ -26,6 +27,7 @@ export const GridColumns = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Voluptatibus, perspiciatis!
             </p>
+            <Button text='Add to Cart' />
           </div>
         </div>
       </div>
