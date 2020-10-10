@@ -6,3 +6,4 @@ export { GridColumns } from './GridColumns';
 export { Tabs } from './Tabs';
 export { MessageBox } from './MessageBox';
 export { Button } from './Button';
+export { Card } from './Card';
