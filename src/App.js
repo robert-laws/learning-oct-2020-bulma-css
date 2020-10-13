@@ -7,6 +7,7 @@ import {
   GridColumns,
   Tabs,
   Card,
+  Modal,
 } from './examples';
 
 import './App.scss';
@@ -36,6 +37,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Modal />
     </div>
   );
 }

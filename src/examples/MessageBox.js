@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button } from './Button';
+import ActiveContext from '../context/active/activeContext';
 
 export const MessageBox = () => {
+  const activeContext = useContext(ActiveContext);
+  const { updateActive } = activeContext;
+
   return (
     <div className='message is-info'>
       <div className='message-header'>
@@ -15,7 +19,7 @@ export const MessageBox = () => {
           aperiam.
         </p>
         <div className='has-text-centered pt-5 pb-2'>
-          <Button text='Learn More' />
+          <Button text='Learn More' extraFunction={updateActive} />
         </div>
       </div>
     </div>

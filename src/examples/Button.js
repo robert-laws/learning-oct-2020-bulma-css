@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export const Button = ({ text }) => {
+export const Button = ({ text, extraFunction }) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -14,7 +14,11 @@ export const Button = ({ text }) => {
   }, [loading]);
 
   const handleClick = () => {
-    setLoading((prev) => !prev);
+    if (extraFunction) {
+      extraFunction();
+    } else {
+      setLoading((prev) => !prev);
+    }
   };
 
   return (
