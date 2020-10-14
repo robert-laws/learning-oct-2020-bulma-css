@@ -8,6 +8,7 @@ import {
   Tabs,
   Card,
   Modal,
+  Footer,
 } from './examples';
 
 import './App.scss';
@@ -37,6 +38,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Footer />
       <Modal />
     </div>
   );

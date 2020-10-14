@@ -27,7 +27,19 @@ export const GridColumns = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Voluptatibus, perspiciatis!
             </p>
-            <Button text='Add to Cart' />
+            <form>
+              <div className='field'>
+                <div className='control mb-6'>
+                  <div className='select is-dark'>
+                    <select>
+                      <option value=''>Small (250g)</option>
+                      <option value=''>Large (500g)</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <Button text='Add to Cart' />
+            </form>
           </div>
         </div>
       </div>
