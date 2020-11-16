@@ -8,4 +8,5 @@ export { MessageBox } from './MessageBox';
 export { Button } from './Button';
 export { Card } from './Card';
 export { Modal } from './Modal';
+export { Spinner } from './Spinner';
 export { Footer } from './Footer';

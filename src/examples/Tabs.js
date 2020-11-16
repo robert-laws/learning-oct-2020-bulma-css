@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
-import { MessageBox } from './MessageBox';
+import { MessageBox, Spinner } from './';
 
 export const Tabs = () => {
+  const [loading, setLoading] = useState(true);
   const [selectedTab, setSelectedTab] = useState('product-details');
 
   const handleClick = (event) => {
     setSelectedTab(event.target.name);
+    finishLoading();
+  };
+
+  const finishLoading = () => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
   };
 
   return (
@@ -38,6 +46,14 @@ export const Tabs = () => {
                   onClick={handleClick}
                 >
                   <a name='coffee-links'>Coffee Links</a>
+                </li>
+                <li
+                  className={`${
+                    selectedTab === 'spin-demo' ? 'is-active' : ''
+                  }`}
+                  onClick={handleClick}
+                >
+                  <a name='spin-demo'>Spinner</a>
                 </li>
               </ul>
             </div>
@@ -80,6 +96,31 @@ export const Tabs = () => {
                   Unde, corrupti. Lorem ipsum, dolor sit amet consectetur
                   adipisicing elit. Aut repellat impedit voluptatibus.
                 </p>
+              </div>
+              <div
+                id='spin-demo'
+                className={`${selectedTab === 'spin-demo' ? '' : 'is-hidden'}`}
+              >
+                <h3 className='is-size-5 title'>Spinner</h3>
+                {loading ? (
+                  <div
+                    style={{
+                      width: '100%',
+                      height: '200px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <Spinner />
+                  </div>
+                ) : (
+                  <div>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Labore reiciendis odio veniam non est. Sapiente aperiam
+                    omnis nemo unde quisquam.
+                  </div>
+                )}
               </div>
             </div>
           </div>
